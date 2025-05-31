@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain & Gear", "Chain & Gear\Chain & Gear.csproj", "{6AAAF9E1-B6EB-414C-96F9-C926141BF320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AAAF9E1-B6EB-414C-96F9-C926141BF320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAAF9E1-B6EB-414C-96F9-C926141BF320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAAF9E1-B6EB-414C-96F9-C926141BF320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAAF9E1-B6EB-414C-96F9-C926141BF320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C42251A-CB6E-4209-B983-0776152BB8DA}
+	EndGlobalSection
+EndGlobal

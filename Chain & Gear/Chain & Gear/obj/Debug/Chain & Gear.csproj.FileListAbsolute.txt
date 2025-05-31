@@ -1,0 +1,16 @@
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.AssemblyReference.cache
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.AdminDashboard.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ProductUpdate1.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Home.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Login.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Properties.Resources.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.ServiceUC.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.SignUp.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Splash.resources
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.GenerateResource.cache
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.CoreCompileInputs.cache
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.exe.config
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.exe
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.pdb
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.exe
+D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.pdb
