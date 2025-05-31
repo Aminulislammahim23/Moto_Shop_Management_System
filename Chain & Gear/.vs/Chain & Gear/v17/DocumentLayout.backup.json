@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\",
+  "WorkspaceRootPath": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|d:\\git projects\\moto_shop_management_system\\chain \u0026 gear\\chain \u0026 gear\\system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|d:\\git all project\\moto_shop_management_system\\chain \u0026 gear\\chain \u0026 gear\\system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|solutionrelative:chain \u0026 gear\\system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|d:\\git projects\\moto_shop_management_system\\chain \u0026 gear\\chain \u0026 gear\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\chain \u0026 gear\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|solutionrelative:chain \u0026 gear\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|d:\\git projects\\moto_shop_management_system\\chain \u0026 gear\\chain \u0026 gear\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\chain \u0026 gear\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|solutionrelative:chain \u0026 gear\\admin\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|d:\\git projects\\moto_shop_management_system\\chain \u0026 gear\\chain \u0026 gear\\admin\\productupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\chain \u0026 gear\\admin\\productupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|solutionrelative:chain \u0026 gear\\admin\\productupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|d:\\git projects\\moto_shop_management_system\\chain \u0026 gear\\chain \u0026 gear\\admin\\productupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\chain \u0026 gear\\admin\\productupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6AAAF9E1-B6EB-414C-96F9-C926141BF320}|Chain \u0026 Gear\\Chain \u0026 Gear.csproj|solutionrelative:chain \u0026 gear\\admin\\productupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\System\\Program.cs",
+              "DocumentMoniker": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\System\\Program.cs",
               "RelativeDocumentMoniker": "Chain \u0026 Gear\\System\\Program.cs",
-              "ToolTip": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\System\\Program.cs",
+              "ToolTip": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\System\\Program.cs",
               "RelativeToolTip": "Chain \u0026 Gear\\System\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -49,51 +49,47 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
+              "DocumentMoniker": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
-              "ToolTip": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
+              "ToolTip": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
               "RelativeToolTip": "Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAewC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T14:21:01.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T14:21:01.522Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
+              "DocumentMoniker": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "Chain \u0026 Gear\\Admin\\AdminDashboard.cs",
               "ToolTip": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "Chain \u0026 Gear\\Admin\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:34:05.871Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-31T13:34:05.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductUpdate1.cs",
-              "DocumentMoniker": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
+              "DocumentMoniker": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
               "RelativeDocumentMoniker": "Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
-              "ToolTip": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
+              "ToolTip": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
               "RelativeToolTip": "Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
               "ViewState": "AgIAAMYAAAAAAAAAAIAwwOIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:29:53.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T13:29:53.39Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ProductUpdate1.cs [Design]",
-              "DocumentMoniker": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
+              "DocumentMoniker": "D:\\Git All Project\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
               "RelativeDocumentMoniker": "Chain \u0026 Gear\\Admin\\ProductUpdate1.cs",
               "ToolTip": "D:\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs [Design]",
-              "RelativeToolTip": "Chain \u0026 Gear\\Admin\\ProductUpdate1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Git Projects\\Moto_Shop_Management_System\\Chain \u0026 Gear\\Chain \u0026 Gear\\Admin\\ProductUpdate1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:29:50.68Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-31T13:29:50.68Z"
             }
           ]
         }
