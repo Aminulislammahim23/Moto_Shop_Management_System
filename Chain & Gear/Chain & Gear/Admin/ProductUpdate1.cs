@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace Chain___Gear.Admin
     public partial class ProductUpdate1 : UserControl
     {
         private DataAccess Da { get; set; }
+
+        private string selectedFilePath = string.Empty;
         public ProductUpdate1()
         {
             this.Da = new DataAccess();
@@ -69,6 +72,7 @@ namespace Chain___Gear.Admin
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
+           
             try
             {
                 if (!this.IsValidToSave())
@@ -77,9 +81,24 @@ namespace Chain___Gear.Admin
                     return;
                 }
 
+                // Check if record exists
                 var sql = "SELECT * FROM Productlist WHERE Productserial = '" + this.productSerialTxt.Text + "';";
                 var ds = this.Da.ExecuteQuery(sql);
                 string query = null;
+
+                // Save image to folder
+                string destinationFolderPath = Path.Combine(Application.StartupPath, "PDimages");
+                if (!Directory.Exists(destinationFolderPath))
+                {
+                    Directory.CreateDirectory(destinationFolderPath);
+                }
+
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(selectedFilePath);
+                string destinationFilePath = Path.Combine(destinationFolderPath, fileName);
+                File.Copy(selectedFilePath, destinationFilePath, true);
+
+                // Save relative path to DB (optional: you can store only the filename if needed)
+                string imagePathForDb = destinationFilePath;
 
                 if (ds.Tables[0].Rows.Count == 1)
                 {
@@ -91,32 +110,32 @@ namespace Chain___Gear.Admin
                             "quantity = '" + this.quantityTxt.Text + "', " +
                             "productcategory = '" + this.productCategoryTxt.SelectedItem.ToString() + "', " +
                             "Productprice = '" + this.priceTxt.Text + "', " +
-                            "Dateandtime = '" + this.dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss") + "' " + // no comma here
+                            "Dateandtime = '" + this.dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss") + "', " +
+                            "Pimage = '" + imagePathForDb + "' " + // no comma before WHERE
                             "WHERE Productserial = '" + this.productSerialTxt.Text + "';";
-
-                    var count = this.Da.ExecuteDMLQuery(query);
-                    if (count == 1)
-                        MessageBox.Show("Data Updated Successfully");
-                    else
-                        MessageBox.Show("Data not updated, please check!!!");
                 }
                 else
                 {
                     // Insert
-                    query = "INSERT INTO Productlist (Productserial, Productname, brandname, quantity, productcategory, Productprice, Dateandtime) VALUES (" +
+                    query = "INSERT INTO Productlist (Productserial, Productname, brandname, quantity, productcategory, Productprice, Dateandtime, Pimage) VALUES (" +
                             "'" + this.productSerialTxt.Text + "', " +
                             "'" + this.productNameTxt.Text + "', " +
                             "'" + this.brandNameTxt.Text + "', " +
                             "'" + this.quantityTxt.Text + "', " +
                             "'" + this.productCategoryTxt.SelectedItem.ToString() + "', " +
                             "'" + this.priceTxt.Text + "', " +
-                            "'" + this.dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss") + "');";
+                            "'" + this.dateTimePicker1.Value.ToString("yyyy-MM-dd HH:mm:ss") + "', " +
+                            "'" + imagePathForDb + "');";
+                }
 
-                    var count = this.Da.ExecuteDMLQuery(query);
-                    if (count == 1)
-                        MessageBox.Show("Data Added Successfully");
-                    else
-                        MessageBox.Show("Data not added, please check!!!");
+                var count = this.Da.ExecuteDMLQuery(query);
+                if (count == 1)
+                {
+                    MessageBox.Show(ds.Tables[0].Rows.Count == 1 ? "Data Updated Successfully" : "Data Added Successfully");
+                }
+                else
+                {
+                    MessageBox.Show("Operation failed, please check!!!");
                 }
 
                 this.AutoIdGenerate();
@@ -128,6 +147,8 @@ namespace Chain___Gear.Admin
                 MessageBox.Show("Error!! ...please check...\n" + exc.Message);
             }
         }
+
+        
 
 
         private bool IsValidToSave()
@@ -153,7 +174,7 @@ namespace Chain___Gear.Admin
         }
 
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
-        {
+        { 
             try
             {
                 this.productSerialTxt.Text = this.dataGridView1.CurrentRow.Cells["Productserial"].Value.ToString();
@@ -163,13 +184,26 @@ namespace Chain___Gear.Admin
                 this.priceTxt.Text = this.dataGridView1.CurrentRow.Cells["Productprice"].Value.ToString();
                 this.productCategoryTxt.SelectedItem = this.dataGridView1.CurrentRow.Cells["productcategory"].Value.ToString();
                 this.dateTimePicker1.Value = Convert.ToDateTime(this.dataGridView1.CurrentRow.Cells["Dateandtime"].Value);
-            }
 
+                // Load picture from file path
+                string imagePath = this.dataGridView1.CurrentRow.Cells["Pimage"].Value.ToString();
+
+                if (File.Exists(imagePath))
+                {
+                    this.pbxPhoto.Image = Image.FromFile(imagePath);
+                }
+                else
+                {
+                    this.pbxPhoto.Image = null; // or a default image
+                    MessageBox.Show("Image file not found at:\n" + imagePath);
+                }
+            }
             catch (Exception exc)
             {
                 MessageBox.Show("Error!! ...please check...\n" + exc.Message);
             }
         }
+
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
@@ -226,6 +260,30 @@ namespace Chain___Gear.Admin
             this.dataGridView1.DataSource = ds.Tables[0];
 
 
+        }
+
+        private void btnUploadPhoto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (OpenFileDialog openFileDialog = new OpenFileDialog())
+                {
+                    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
+                    openFileDialog.Title = "Select a Profile Photo";
+
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        selectedFilePath = openFileDialog.FileName;
+
+                        pbxPhoto.Image = Image.FromFile(selectedFilePath);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex + "this error happened");
+            }
         }
     }
     }

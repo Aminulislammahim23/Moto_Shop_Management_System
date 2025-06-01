@@ -44,7 +44,17 @@ namespace Chain___Gear
 
         private void bookingLbl_Click(object sender, EventArgs e)
         {
-            //gdfgfdghfdg
+            
+        }
+
+        private void ManageCustLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void manageEmpLbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

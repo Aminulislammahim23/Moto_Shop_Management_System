@@ -30,6 +30,14 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnUploadPhoto = new System.Windows.Forms.Button();
+            this.pbxPhoto = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.priceTxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.searchTxt = new System.Windows.Forms.TextBox();
             this.reloadBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.productCategoryTxt = new System.Windows.Forms.ComboBox();
@@ -46,12 +54,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.ProductNamelabel1 = new System.Windows.Forms.Label();
-            this.searchTxt = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.priceTxt = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Productserial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Productname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.brandname = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,8 +61,10 @@
             this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productcategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Dateandtime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pimage = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxPhoto)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -77,6 +81,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnUploadPhoto);
+            this.panel2.Controls.Add(this.pbxPhoto);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
@@ -103,6 +109,74 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1306, 435);
             this.panel2.TabIndex = 0;
+            // 
+            // btnUploadPhoto
+            // 
+            this.btnUploadPhoto.Location = new System.Drawing.Point(1144, 124);
+            this.btnUploadPhoto.Name = "btnUploadPhoto";
+            this.btnUploadPhoto.Size = new System.Drawing.Size(70, 34);
+            this.btnUploadPhoto.TabIndex = 23;
+            this.btnUploadPhoto.Text = "Upload ";
+            this.btnUploadPhoto.UseVisualStyleBackColor = true;
+            this.btnUploadPhoto.Click += new System.EventHandler(this.btnUploadPhoto_Click);
+            // 
+            // pbxPhoto
+            // 
+            this.pbxPhoto.Location = new System.Drawing.Point(1119, 17);
+            this.pbxPhoto.Name = "pbxPhoto";
+            this.pbxPhoto.Size = new System.Drawing.Size(125, 101);
+            this.pbxPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxPhoto.TabIndex = 22;
+            this.pbxPhoto.TabStop = false;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(535, 58);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(247, 20);
+            this.dateTimePicker1.TabIndex = 21;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(425, 61);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(104, 13);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Entry date and time :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(429, 20);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 13);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Product Price (TK) :";
+            // 
+            // priceTxt
+            // 
+            this.priceTxt.Location = new System.Drawing.Point(535, 17);
+            this.priceTxt.Name = "priceTxt";
+            this.priceTxt.Size = new System.Drawing.Size(247, 20);
+            this.priceTxt.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1009, 178);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Search";
+            // 
+            // searchTxt
+            // 
+            this.searchTxt.Location = new System.Drawing.Point(1056, 174);
+            this.searchTxt.Name = "searchTxt";
+            this.searchTxt.Size = new System.Drawing.Size(247, 20);
+            this.searchTxt.TabIndex = 16;
+            this.searchTxt.TextChanged += new System.EventHandler(this.searchTxt_TextChanged);
             // 
             // reloadBtn
             // 
@@ -190,11 +264,14 @@
             this.Productprice,
             this.quantity,
             this.productcategory,
-            this.Dateandtime});
+            this.Dateandtime,
+            this.Pimage});
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1306, 235);
             this.dataGridView1.TabIndex = 0;
@@ -264,55 +341,6 @@
             this.ProductNamelabel1.TabIndex = 1;
             this.ProductNamelabel1.Text = "Product Name";
             // 
-            // searchTxt
-            // 
-            this.searchTxt.Location = new System.Drawing.Point(1056, 174);
-            this.searchTxt.Name = "searchTxt";
-            this.searchTxt.Size = new System.Drawing.Size(247, 20);
-            this.searchTxt.TabIndex = 16;
-            this.searchTxt.TextChanged += new System.EventHandler(this.searchTxt_TextChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1009, 178);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Search";
-            // 
-            // priceTxt
-            // 
-            this.priceTxt.Location = new System.Drawing.Point(535, 17);
-            this.priceTxt.Name = "priceTxt";
-            this.priceTxt.Size = new System.Drawing.Size(247, 20);
-            this.priceTxt.TabIndex = 18;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(429, 20);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 13);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Product Price (TK) :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(425, 61);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Entry date and time :";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(535, 58);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(247, 20);
-            this.dateTimePicker1.TabIndex = 21;
-            // 
             // Productserial
             // 
             this.Productserial.DataPropertyName = "Productserial";
@@ -374,6 +402,14 @@
             this.Dateandtime.ReadOnly = true;
             this.Dateandtime.Width = 140;
             // 
+            // Pimage
+            // 
+            this.Pimage.DataPropertyName = "Pimage";
+            this.Pimage.Frozen = true;
+            this.Pimage.HeaderText = "Product Image Path";
+            this.Pimage.Name = "Pimage";
+            this.Pimage.ReadOnly = true;
+            // 
             // ProductUpdate1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -384,6 +420,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxPhoto)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -403,7 +440,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label ProductNamelabel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.Button deleteBtn;
@@ -416,6 +452,8 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnUploadPhoto;
+        private System.Windows.Forms.PictureBox pbxPhoto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Productserial;
         private System.Windows.Forms.DataGridViewTextBoxColumn Productname;
         private System.Windows.Forms.DataGridViewTextBoxColumn brandname;
@@ -423,5 +461,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn productcategory;
         private System.Windows.Forms.DataGridViewTextBoxColumn Dateandtime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Pimage;
+        protected System.Windows.Forms.DataGridView dataGridView1;
     }
 }
