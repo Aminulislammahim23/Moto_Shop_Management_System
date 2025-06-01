@@ -59,6 +59,12 @@
     <Compile Include="Admin\AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\ManageEMP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageEMP.Designer.cs">
+      <DependentUpon>ManageEMP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\ProductUpdate1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </Compile>
     <EmbeddedResource Include="Admin\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ManageEMP.resx">
+      <DependentUpon>ManageEMP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\ProductUpdate1.resx">
       <DependentUpon>ProductUpdate1.cs</DependentUpon>

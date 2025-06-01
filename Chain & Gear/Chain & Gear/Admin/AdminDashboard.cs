@@ -54,7 +54,11 @@ namespace Chain___Gear
 
         private void manageEmpLbl_Click(object sender, EventArgs e)
         {
+           ManageEMP uc12 = new ManageEMP();
 
+
+            this.defPnl.Controls.Clear();
+            this.defPnl.Controls.Add(uc12);
         }
     }
 }
