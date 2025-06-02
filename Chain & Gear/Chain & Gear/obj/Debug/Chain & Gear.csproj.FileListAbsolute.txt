@@ -34,3 +34,4 @@ D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Deb
 D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\EntityFramework.xml
 D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & .EBD717E3.Up2Date
 D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ManageEMP.resources
+D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.admin.resources

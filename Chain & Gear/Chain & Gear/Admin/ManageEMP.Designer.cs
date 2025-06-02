@@ -66,6 +66,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.EmpNamelabel1 = new System.Windows.Forms.Label();
+            this.passwordTxt = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -75,6 +77,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.passwordTxt);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.checkBox2Female);
@@ -435,6 +439,22 @@
             this.EmpNamelabel1.TabIndex = 24;
             this.EmpNamelabel1.Text = "Full Name :";
             // 
+            // passwordTxt
+            // 
+            this.passwordTxt.Location = new System.Drawing.Point(529, 154);
+            this.passwordTxt.Name = "passwordTxt";
+            this.passwordTxt.Size = new System.Drawing.Size(247, 20);
+            this.passwordTxt.TabIndex = 51;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(464, 157);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(59, 13);
+            this.label10.TabIndex = 52;
+            this.label10.Text = "Password :";
+            // 
             // ManageEMP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -491,5 +511,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn AdmitDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn Role;
         private System.Windows.Forms.DataGridViewTextBoxColumn Photo;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox passwordTxt;
     }
 }

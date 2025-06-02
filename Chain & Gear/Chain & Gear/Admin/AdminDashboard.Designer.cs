@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
             this.panel1 = new System.Windows.Forms.Panel();
             this.upPnl = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -39,9 +40,11 @@
             this.bookingLbl = new System.Windows.Forms.Label();
             this.productUpdateLbl = new System.Windows.Forms.Label();
             this.defPnl = new System.Windows.Forms.Panel();
+            this.adminPB = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.upPnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adminPB)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -57,6 +60,7 @@
             // upPnl
             // 
             this.upPnl.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.upPnl.Controls.Add(this.adminPB);
             this.upPnl.Controls.Add(this.pictureBox1);
             this.upPnl.Controls.Add(this.showNameLbl);
             this.upPnl.Controls.Add(this.label5);
@@ -158,6 +162,17 @@
             this.defPnl.Size = new System.Drawing.Size(1306, 495);
             this.defPnl.TabIndex = 0;
             // 
+            // adminPB
+            // 
+            this.adminPB.Image = ((System.Drawing.Image)(resources.GetObject("adminPB.Image")));
+            this.adminPB.Location = new System.Drawing.Point(184, 12);
+            this.adminPB.Name = "adminPB";
+            this.adminPB.Size = new System.Drawing.Size(63, 61);
+            this.adminPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.adminPB.TabIndex = 8;
+            this.adminPB.TabStop = false;
+            this.adminPB.Click += new System.EventHandler(this.adminPB_Click);
+            // 
             // AdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -172,6 +187,7 @@
             this.upPnl.ResumeLayout(false);
             this.upPnl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adminPB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -189,5 +205,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label showNameLbl;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox adminPB;
     }
 }

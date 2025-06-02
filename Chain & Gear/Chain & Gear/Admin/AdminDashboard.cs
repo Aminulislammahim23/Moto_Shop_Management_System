@@ -60,5 +60,11 @@ namespace Chain___Gear
             this.defPnl.Controls.Clear();
             this.defPnl.Controls.Add(uc12);
         }
+
+        private void adminPB_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.adminPB.Show();
+        }
     }
 }
