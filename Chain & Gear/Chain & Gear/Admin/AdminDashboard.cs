@@ -64,7 +64,13 @@ namespace Chain___Gear
         private void adminPB_Click(object sender, EventArgs e)
         {
             this.Hide();
-            this.adminPB.Show();
+            new admin().Show();
+        }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

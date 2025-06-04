@@ -28,7 +28,7 @@ namespace Chain___Gear
 
             // Close splash and run main form
             splash.Close();
-            Application.Run(new AdminDashboard());
+            Application.Run(new Login());
         }
     }
 }

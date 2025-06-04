@@ -16,7 +16,7 @@ namespace Chain___Gear
         public Login()
         {
             InitializeComponent();
-            pictureBox1.Image = Image.FromFile(@"D:\Git Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\image\1.jpg");
+            pictureBox1.Image = Image.FromFile(@"D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\image\1.jpg");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
         }

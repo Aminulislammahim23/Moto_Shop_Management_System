@@ -35,3 +35,46 @@ D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Deb
 D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & .EBD717E3.Up2Date
 D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ManageEMP.resources
 D:\Git All Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.admin.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.exe.config
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.exe
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.pdb
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\EntityFramework.dll
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\EntityFramework.xml
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.AssemblyReference.cache
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.admin.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.AdminDashboard.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ManageEMP.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ProductUpdate1.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Home.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Login.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Properties.Resources.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.ServiceUC.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.SignUp.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Splash.resources
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.GenerateResource.cache
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.CoreCompileInputs.cache
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & .EBD717E3.Up2Date
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.exe
+D:\work on\Projects\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.pdb
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.exe.config
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.exe
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\Chain & Gear.pdb
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\EntityFramework.dll
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\bin\Debug\EntityFramework.xml
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.AssemblyReference.cache
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.admin.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.AdminDashboard.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ManageEMP.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Admin.ProductUpdate1.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.setting.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Home.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Login.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Properties.Resources.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.ServiceUC.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.SignUp.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain___Gear.Splash.resources
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.GenerateResource.cache
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.csproj.CoreCompileInputs.cache
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & .EBD717E3.Up2Date
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.exe
+D:\GIT\C#_Project\Moto_Shop_Management_System\Chain & Gear\Chain & Gear\obj\Debug\Chain & Gear.pdb

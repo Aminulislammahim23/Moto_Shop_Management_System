@@ -42,7 +42,9 @@ namespace WFADBG
 
         public DataAccess()
         {
-            this.Sqlcon = new SqlConnection(@"Data Source=DESKTOP-J9ORDHU\SQLEXPRESS;Initial Catalog=motoDB;User ID=sa;Password=552299;");
+            // this.Sqlcon = new SqlConnection(@"Data Source=DESKTOP-J9ORDHU\SQLEXPRESS;Initial Catalog=motoDB;User ID=sa;Password=552299;");  //desktop
+            this.Sqlcon = new SqlConnection(@"Data Source=DESKTOP-EOBP3CQ\SQLEXPRESS;Initial Catalog=motoDB;User ID=sa;Password=552299;");  //laptop
+            
             Sqlcon.Open();
         }
 

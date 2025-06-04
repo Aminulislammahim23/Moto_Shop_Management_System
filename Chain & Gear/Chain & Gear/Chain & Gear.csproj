@@ -53,10 +53,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin.cs">
+    <Compile Include="Admin\admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin.Designer.cs">
+    <Compile Include="Admin\admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin\AdminDashboard.cs">
@@ -92,6 +92,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\setting.Designer.cs">
+      <DependentUpon>setting.cs</DependentUpon>
+    </Compile>
     <Compile Include="System\DataAccess.cs" />
     <Compile Include="User\Home.cs">
       <SubType>Form</SubType>
@@ -125,7 +131,7 @@
     <Compile Include="System\Splash.Designer.cs">
       <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="admin.resx">
+    <EmbeddedResource Include="Admin\admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\AdminDashboard.resx">
@@ -136,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\ProductUpdate1.resx">
       <DependentUpon>ProductUpdate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\setting.resx">
+      <DependentUpon>setting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

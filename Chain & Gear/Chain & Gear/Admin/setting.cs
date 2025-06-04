@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Chain___Gear
 {
-    public partial class admin : Form
+    public partial class setting: Form
     {
-        public admin()
+        public setting()
         {
             InitializeComponent();
-        }
-
-        private void admin_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
